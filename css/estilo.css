@@ -1,5 +1,6 @@
 html,body {
 	height:100%;
+	background: #eaeaea;
 }
 
 header {
@@ -10,12 +11,36 @@ header {
 }
 section {
 	width: 79%;
-	background: #d795a7;
+	background: transparent;
 	float: left;
 	overflow: auto;
 	padding-bottom: 60px;
 	padding-top:30px;
+
+	color: #3f3f3f;
+	text-decoration: none;
+	outline: 0;
 }
+
+
+.dropshadow {
+  float:left;
+  clear:left;
+  background: url(imagenes/shadowAlpha.png) no-repeat bottom right;
+  margin: 10px 0 10px 10px !important;
+  margin: 10px 0 10px 5px;
+  padding: 0px;
+}
+
+.innerbox {
+  position:relative;
+  bottom:6px;
+  right: 6px;
+  border: 1px solid #999999;
+  padding:4px;
+  margin: 0px 0px 0px 0px;
+}
+
 
 aside {
 	float: right;
@@ -31,7 +56,7 @@ footer {
 	height: 40px;
 	padding:5px 0px;
 	clear: both;
-	background: #b1b3e4;
+	background: #121212;
 	text-align: center;
 	color: #fff;
 }
